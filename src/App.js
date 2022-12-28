@@ -39,7 +39,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">Star Wars Characters</h1>
-      <Searchbar setsearchValue={setSearchValue} />
+      <Searchbar setSearchValue={setSearchValue} />
       <Characters characters={filteredCharacters()} />
     </div>
   );
